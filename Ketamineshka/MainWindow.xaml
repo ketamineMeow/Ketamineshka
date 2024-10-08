@@ -1,0 +1,12 @@
+﻿<Window x:Class= "YourNamespace.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Главное Окно" Height="400" Width="400" Background="#FFBDB9B9">
+    <StackPanel>
+        <Button Content="Русско-английский переводчик" Click="OpenTranslator"/>
+        <Button Content="Калькулятор" Click="OpenCalculator"/>
+        <Button Content="Определение промежутка" Click="OpenRangeChecker"/>
+        <Button Content="Проверка пароля" Click="OpenPasswordChecker"/>
+    </StackPanel>
+</Window>
+

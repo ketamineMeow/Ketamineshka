@@ -1,0 +1,12 @@
+﻿<Window x:Class= "YourNamespace.RangeCheckerWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Промежуток" Height="200" Width="300" Background="#FFEBEBEB">
+    <StackPanel>
+        <TextBlock Text="Введите промежуток : " Margin="10"/>
+        <TextBox x:Name="NumberTextBox" Margin="10"/>
+        <Button Content="Проверить" Click="CheckRange"/>
+        <TextBlock x:Name="ResultTextBlock" Margin="10"/>
+    </StackPanel>
+</Window>
+
